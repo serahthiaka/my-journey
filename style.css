@@ -1,0 +1,113 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+/* Content Section */
+.content {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+}
+
+.content h2 {
+    color: #283e51;
+    font-size: 1.8rem;
+    border-left: 5px solid #4b79a1;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.content img {
+    display: block;
+    margin: 25px auto;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background: #283e51;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Buttons / Links in Content */
+.content a {
+    color: #4b79a1;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .content {
+        width: 92%;
+        padding: 20px;
+    }
+
+    .content img {
+        width: 100%;
+    }
+}

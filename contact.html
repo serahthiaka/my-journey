@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="childhood.html">Childhood</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="future.html">Future Aspirations</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Reach Out</h2>
+
+    <form onsubmit="return validateForm()">
+        <label>Your Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label>Message:</label><br>
+        <textarea id="messageBox"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>© 2025 My Personal Journey</p>
+</footer>
+
+</body>
+</html>
